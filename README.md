@@ -17,7 +17,7 @@
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt=""/>
     </a>
-    <a href="https://www.codefactor.io/repository/github/realseek/rubbishkooksong"><img src="https://www.codefactor.io/repository/github/realseek/rubbishkooksong/badge" alt="CodeFactor" />
+    <a href="https://www.codefactor.io/repository/github/realseek/kookgitwebhook"><img src="https://www.codefactor.io/repository/github/realseek/rubbishkooksong/badge" alt="CodeFactor" />
     </a>
 </p>
 
