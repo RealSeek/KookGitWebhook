@@ -1,5 +1,7 @@
+# HTTP 服务器端口
 port: 25565
 
+# url 路径配置
 url_parameter: ""
 
 # 插件管理员ID
