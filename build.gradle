@@ -1,0 +1,30 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+group = 'me.realseek'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:24.0.0'
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.4'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.github.SNWCreations:JKook:0.49.0'
+    implementation 'cn.hutool:hutool-all:5.8.19'
+    implementation 'org.xerial:sqlite-jdbc:3.34.0'
+    implementation 'com.google.guava:guava:32.0.0-jre'
+}
+
+shadowJar {
+    archiveClassifier = ''
+    configurations {
+        compile.exclude group: 'com.github.SNWCreations'
+    }
+}

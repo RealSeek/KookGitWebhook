@@ -1,0 +1,5 @@
+name: KookGitWebhook
+version: 1.0
+api-version: 0.49.0
+authors: ["RealSeek"]
+main: me.realseek.kookwebhook.Main
