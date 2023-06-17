@@ -42,7 +42,7 @@ BotAdmin: ["2038278961", "管理员ID"]
 
 `/git bind User/repo` 
 
-作用:绑定一个 repo 到频道内,触发 webhook 后会在绑定的频道推送
+作用: 绑定一个 repo 到频道内,触发 webhook 后会在绑定的频道推送
 
 例如: /git bind RealSeek/KookGitWebhook
 
@@ -50,7 +50,7 @@ BotAdmin: ["2038278961", "管理员ID"]
 
 `/git query User/repo` 
 
-作用:查询一个 repo 绑定了多少个服务器频道 
+作用: 查询一个 repo 绑定了多少个服务器频道 
 
 例如: /git query RealSeek/KookGitWebhook
 
@@ -58,7 +58,7 @@ BotAdmin: ["2038278961", "管理员ID"]
 
 `/git queall` 
 
-作用:查询 Bot 绑定了多少个 repo 
+作用: 查询 Bot 绑定了多少个 repo 
 
 例如: /git queall
 
@@ -66,7 +66,7 @@ BotAdmin: ["2038278961", "管理员ID"]
 
 `/git del User/repo` 
 
-作用:删除一个 repo 的推送 
+作用: 删除一个 repo 的推送 
 
 例如: /git del RealSeek/KookGitWebhook
 
